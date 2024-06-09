@@ -7,10 +7,8 @@ public class Q3 {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int res = a / b;
-        int rem = a % b;
 
-        System.out.println("The number of students in each team is " + res + " and left out is " + rem);
+        System.out.println("The number of students in each team is " + a / b + " and left out is " + a % b);
     }
 }
 

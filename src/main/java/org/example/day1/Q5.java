@@ -8,10 +8,7 @@ public class Q5 {
         int x = scanner.nextInt();
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int price = x * a;
-        int profit = x * b;
-        int res = price - profit - 100;
-        System.out.println(res);
+        System.out.println((x * a) - (x * b) - 100);
     }
 }
 //    Q5.Each Sunday, a newspaper agency sells x copies of a certain newspaper for Rs.a per copy. The cost to the agency of each newspaper is Rs.b.

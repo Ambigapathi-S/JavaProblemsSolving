@@ -6,22 +6,22 @@ public class Q6 {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
-        int s1=0,s2=1,s3=0;
+        int a=0,b=1,c=0;
         if(n==1)
         {
-            System.out.print(s1);
+            System.out.print(a);
         }else if(n==2)
         {
-            System.out.print(s2);
+            System.out.print(b);
         }else
         {
             for(int i=3;i<=n;i++)
             {
-                s3=s1+s2;
-                s1=s2;
-                s2=s3;
+                c=a+b;
+                a=b;
+                b=c;
             }
-            System.out.print(s3);
+            System.out.print(c);
         }
     }
 }

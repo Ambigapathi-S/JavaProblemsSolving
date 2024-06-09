@@ -8,9 +8,9 @@ public class Q2 {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int temp;
-        temp = a;
-        a = b;
-        b = temp;
+        temp = a; // shift a to temp variable
+        a = b; // swap b value to a
+        b = temp; // swap temp value to b
 
         System.out.println(a);
         System.out.println(b);

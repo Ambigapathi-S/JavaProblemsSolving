@@ -6,17 +6,17 @@ public class Q7 {
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         int n=s.nextInt();
-        int s1=0,s2=0,s3=1,s4=0;
-        System.out.print(s1 + " ");
-        System.out.print(s2 + " ");
-        System.out.print(s3 + " ");
+        int a=0,b=0,c=1,d=0;
+        System.out.print(a + " ");
+        System.out.print(b + " ");
+        System.out.print(c + " ");
         for(int i=4;i<=n;i++)
         {
-            s4=s1+s2+s3;
-            s1=s2;
-            s2=s3;
-            s3=s4;
-            System.out.print(s4 + " ");
+            d=a+b+c;
+            a=b;
+            b=c;
+            c=d;
+            System.out.print(d + " ");
         }
 
     }
